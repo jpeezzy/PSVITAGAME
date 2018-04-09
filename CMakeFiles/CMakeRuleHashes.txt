@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+cdb1224bd7bc5084e9af2ab1c4ffe5af CMakeFiles/spritetest.self
+ab92ef36f37e3d49a0e92c53f55b5ad5 CMakeFiles/spritetest.vpk
+b4eea0806068dec71a93d286c9ee2193 spritetest.velf
+f6e77142c0cdab8d1657735acf167c37 spritetest.vpk_param.sfo

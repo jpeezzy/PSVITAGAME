@@ -1,0 +1,5 @@
+/Users/macbreaker/gitProjects/samples/sdl2/spriteTest/CMakeFiles/rebuild_cache.dir
+/Users/macbreaker/gitProjects/samples/sdl2/spriteTest/CMakeFiles/edit_cache.dir
+/Users/macbreaker/gitProjects/samples/sdl2/spriteTest/CMakeFiles/spritetest.self.dir
+/Users/macbreaker/gitProjects/samples/sdl2/spriteTest/CMakeFiles/spritetest.vpk.dir
+/Users/macbreaker/gitProjects/samples/sdl2/spriteTest/CMakeFiles/spritetest.dir

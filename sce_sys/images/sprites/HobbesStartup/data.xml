@@ -1,0 +1,144 @@
+  <i name="2211002">
+  <i name="effect">
+    <i name="0">
+      <i name="origin">
+        <i name="x" value="61"/>
+        <i name="y" value="136"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.0.png"/>
+    </i>
+    <i name="1">
+      <i name="origin">
+        <i name="x" value="69"/>
+        <i name="y" value="136"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.1.png"/>
+    </i>
+    <i name="2">
+      <i name="origin">
+        <i name="x" value="72"/>
+        <i name="y" value="138"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.2.png"/>
+    </i>
+    <i name="3">
+      <i name="origin">
+        <i name="x" value="72"/>
+        <i name="y" value="138"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.3.png"/>
+    </i>
+    <i name="4">
+      <i name="origin">
+        <i name="x" value="72"/>
+        <i name="y" value="138"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.4.png"/>
+    </i>
+    <i name="5">
+      <i name="origin">
+        <i name="x" value="72"/>
+        <i name="y" value="138"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.5.png"/>
+    </i>
+    <i name="6">
+      <i name="origin">
+        <i name="x" value="73"/>
+        <i name="y" value="139"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.6.png"/>
+    </i>
+    <i name="7">
+      <i name="origin">
+        <i name="x" value="72"/>
+        <i name="y" value="138"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.7.png"/>
+    </i>
+    <i name="8">
+      <i name="origin">
+        <i name="x" value="60"/>
+        <i name="y" value="127"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.8.png"/>
+    </i>
+    <i name="9">
+      <i name="origin">
+        <i name="x" value="17"/>
+        <i name="y" value="118"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.9.png"/>
+    </i>
+    <i name="10">
+      <i name="origin">
+        <i name="x" value="8"/>
+        <i name="y" value="99"/>
+      </i>
+      <i name="delay" value="95"/>
+      <i name="image" value="2211002.effect.10.png"/>
+    </i>
+  </i>
+  <i name="hit">
+    <i name="0">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="10"/>
+          <i name="y" value="209"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="2211002.hit.0.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="8"/>
+          <i name="y" value="89"/>
+        </i>
+        <i name="delay" value="80"/>
+        <i name="image" value="2211002.hit.0.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="26"/>
+          <i name="y" value="70"/>
+        </i>
+        <i name="delay" value="80"/>
+        <i name="image" value="2211002.hit.0.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="30"/>
+          <i name="y" value="58"/>
+        </i>
+        <i name="delay" value="80"/>
+        <i name="image" value="2211002.hit.0.3.png"/>
+      </i>
+      <i name="4">
+        <i name="origin">
+          <i name="x" value="38"/>
+          <i name="y" value="46"/>
+        </i>
+        <i name="delay" value="80"/>
+        <i name="image" value="2211002.hit.0.4.png"/>
+      </i>
+      <i name="5">
+        <i name="origin">
+          <i name="x" value="38"/>
+          <i name="y" value="37"/>
+        </i>
+        <i name="delay" value="80"/>
+        <i name="image" value="2211002.hit.0.5.png"/>
+      </i>
+    </i>
+  </i>
+  </i>
