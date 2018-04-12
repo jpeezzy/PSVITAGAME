@@ -9,6 +9,7 @@
 #include <jpeglib.h>
 #include <zlib.h>
 
+#include "controller.h"
 #include "debugScreen.h"
 #include "grid.h"
 #include "sprite.h"
@@ -48,7 +49,7 @@ bool init()
 	bool success = true;
 
 	//Initialize SDL
-	if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
+	if( SDL_Init( SDL_INIT_VIDEO | SDL_INIT_JOYSTICK) < 0 )
 	{
 		//#ifdef DEBUG
 		printf( "SDL could not initialize! SDL Error: %s\n", SDL_GetError() );
@@ -83,6 +84,10 @@ bool init()
 				gScreenSurface = SDL_GetWindowSurface( gWindow );
 			}
 		}
+		//INITIALIZE JOYSTICK
+		SDL_Joystick *joystick;
+		joystick = SDL_JoystickOpen(0);
+
 	}
 
 	return success;
@@ -174,6 +179,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		//load media
+		int x = 0;
 		if(!loadMedia("app0:sce_sys/images/alert_0.png"))
 		//if(!loadMedia("ux0:/alert_0.png"))
 		{
@@ -185,6 +191,9 @@ int main(int argc, char *argv[])
 			bool quit = false;
 			//Event handler
 			SDL_Event e;
+			//controller Handler
+			controller gamepad;
+			
 			//While application is running
 			while( !quit )
 			{
@@ -192,11 +201,19 @@ int main(int argc, char *argv[])
 				while( SDL_PollEvent( &e ) != 0 )
 				{
 					//User requests quit
-					if( e.type == SDL_QUIT )
+					if( gamepad.getEvent().type == SDL_QUIT )
 					{
 						quit = true;
 					}
+					switch(gamepad.getEvent().type)
+					{
+						case SDL_JOYBUTTONDOWN:
+							{
+							printf("%d\n", gamepad.getEvent().jbutton.button);
+							}
+					}
 				}
+				//checking for button input
 
 				//Apply the PNG image
 				SDL_BlitSurface( gPNGSurface, NULL, gScreenSurface, NULL );
